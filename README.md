@@ -22,15 +22,3 @@ Image compression is a crucial technique in computer graphics and data storage. 
 3. **Clustering**: Each pixel is assigned to the nearest centroid based on color similarity.
 4. **Centroid Update**: New centroids are computed as the mean of all pixels assigned to each centroid.
 5. **Image Reconstruction**: The original image is reconstructed using the assigned centroids, resulting in a compressed version.
-
-## Installation
-
-To run this project, you need to have Python installed along with the following libraries:
-
-- NumPy
-- Matplotlib
-
-You can install the required libraries using pip:
-
-```bash
-pip install numpy matplotlib
